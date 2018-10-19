@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Fredoka+One|Handlee|Oswald|Patrick+Hand|Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Cookie|Karla|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Dancing+Script|Francois+One|Handlee|Libre+Baskerville|Righteous|Satisfy|Sigmar+One|Signika');
+
+h1{
+font-family: 'Russo One'
+}
+
+body{
+  font-family: 'Cookie'
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4em;
+  text-align: center;
+}
+
+ p {
+   font-size: 2em;
+   }
+
+footer {
+  font-size: 1.5em;
+  }
+
+header {
+  font-size: 1.5em;
+  }
+
+  figcaption {
+  font-size: 1.5em;
+  }

@@ -1,0 +1,118 @@
+.odd {
+  background: #cba675;
+  padding: 10px;
+}
+
+.even {
+  background: #282828;
+  color : #ffffff;
+  padding: 10px;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+.aesop {
+  background: url('images/aesopfables.jpg') top center no-repeat;
+  color : #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background: #f1c31f;
+  padding: 10px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding: 12px;
+  display: block;
+}
+
+footer {
+  min-height: 100%;
+  background: #f1c31f;
+  color : #ffffff;
+  padding: 5px;
+}
+
+/* RIGHTEOUS pour le titre pour représenter l'humain chauve donc grand, gros et sa tête plus arrondi, contre DANCING SCRIPT en tout petit pour représenter la mouche et son bruit strident. La police est dansante comme le vol de la mouche */
+#thebaldmanantheflyfable h1{
+font-family: 'Righteous', cursive;
+font-size: 5em;
+line-height: 2;
+}
+
+#thebaldmanantheflyfable p {
+font-family: 'Dancing Script', cursive;
+font-size: 1em;
+line-height: 2;
+}
+
+/* SIGMAR ONE représente la peur du renard face au lion (grande et impossante) puis elle devient HANDLEE car le renard s'accoutume au lion est sa peur est irrationnel (la police s'apaise) */
+#thefoxandthelion h1{
+font-family: 'Sigmar One', cursive;
+font-size: 4em;
+line-height: 2;
+}
+
+#thefoxandthelion p {
+font-family: 'Handlee', cursive;
+font-size: 1.5em;
+line-height: 2;
+}
+
+/* BALOO est gros et arrondi tout comme la tortue, elle est en opposition avec BASKERVILLE qui est fine avec des empattements pour représenter les griffes de l'aigle */
+#thetortoiseandthebirds h1{
+font-family: 'Baloo', cursive;
+font-size: 5em;
+line-height: 2;
+}
+
+#thetortoiseandthebirds p {
+font-family: 'Libre Baskerville', serif;
+font-size: 2em;
+line-height: 2;
+}
+
+/* Deux polices similaires, la première les représentes avant : tout fin alors que la deuxième les représentes après avoir bu toutes l'eau, la police est bombé */
+#thedogsandthehides h1{
+font-family: 'Signika', sans-serif;
+font-size: 2em;
+line-height: 2;
+font-weight: 100;
+}
+
+#thedogsandthehides p {
+font-family: 'Baloo', sans-serif;
+font-size: 2em;
+line-height: 2;
+font-weight: 900;
+}
+
+/* FRANCOIS ONE me fait penser à une trace de loup car elle n'est pas droite et bien structuré alors que SATISFY est fin et léger comme la démarche d'un cheval. Elle parrait élégante. */
+#thewolfandthehorse h1{
+font-family: 'Francois One', sans-serif;
+font-size: 5em;
+line-height: 2;
+}
+
+#thewolfandthehorse p {
+font-family: 'Satisfy', cursive;
+font-size: 2em;
+line-height: 2;
+}
