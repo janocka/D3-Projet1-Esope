@@ -1,3 +1,9 @@
+section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+
 .odd {
   background: #cba675;
   padding: 10px;
@@ -22,6 +28,14 @@ display:block;
   background-attachment: fixed;
 }
 
+.illustration{
+  flex-basis: 480px;
+}
+
+.content {
+  flex-basis: 480px;
+}
+
 header {
   background: #f1c31f;
   padding: 10px;
@@ -29,11 +43,16 @@ header {
 
 header ul {
   list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 header li {
-  display: inline-block;
+
   border: 1px solid #ffffff;
+  border: dotted #3796aa
 }
 
 header a {
@@ -54,7 +73,7 @@ footer {
 #thebaldmanantheflyfable h1{
 font-family: 'Righteous', cursive;
 font-size: 5em;
-line-height: 2;
+line-height: 1.4 ;
 }
 
 #thebaldmanantheflyfable p {
@@ -67,7 +86,7 @@ line-height: 2;
 #thefoxandthelion h1{
 font-family: 'Sigmar One', cursive;
 font-size: 4em;
-line-height: 2;
+line-height: 1;
 }
 
 #thefoxandthelion p {
@@ -80,12 +99,12 @@ line-height: 2;
 #thetortoiseandthebirds h1{
 font-family: 'Baloo', cursive;
 font-size: 5em;
-line-height: 2;
+line-height: 1.4;
 }
 
 #thetortoiseandthebirds p {
 font-family: 'Libre Baskerville', serif;
-font-size: 2em;
+font-size: 1.2em;
 line-height: 2;
 }
 
@@ -113,6 +132,6 @@ line-height: 2;
 
 #thewolfandthehorse p {
 font-family: 'Satisfy', cursive;
-font-size: 2em;
+font-size: 1.6em;
 line-height: 2;
 }
